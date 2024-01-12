@@ -1,0 +1,16 @@
+project(':member-api') {
+
+    bootJar {
+        enabled = true
+    }
+
+    jar {
+        enabled = false
+    }
+
+    dependencies {
+        implementation project(':core')
+        implementation project(':member')
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+    }
+}

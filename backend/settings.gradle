@@ -1,0 +1,5 @@
+rootProject.name = 'backend'
+
+include 'member'
+include 'core'
+include 'member-api'
